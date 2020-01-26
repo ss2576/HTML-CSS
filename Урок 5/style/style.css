@@ -1,0 +1,260 @@
+/* бледно серый фон сайта */
+body {
+    background-color: #f8f8f8;
+}
+
+.menu {
+    background-color: #3CB371;
+    width: 100%;
+    float: left;
+    height: 150px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100%;
+    line-height: 60px;
+}
+
+
+.menu a {
+    color: #336699;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: darkgreen;
+    font-size: 45px;
+}
+
+.header_catalog {
+    background-color: #eaeaea;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.short_description {
+    color: #707070;
+    font-size: 14px;
+    font-style:italic;
+    line-height: 16px;
+    
+}
+.full_description {
+    color: #484343;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+.personal_data li {
+    width: 370px;
+    height: 35px;
+    border: 1px solid #3CB371;
+    text-decoration-color: #3CB371;
+}
+
+.personal_data li {
+    list-style-image: url(../img/skoda_img.jpg)
+}
+        
+.personal_data li:hover {
+    #width: 600px;
+    #height: 30px;
+    #border: 1px solid #3CB371;
+    #text-decoration-color: #3CB371;
+}
+
+input {
+  font-size: 18px;
+  color: #336699;
+  background-color: #3CB371;
+  text-transform: capitalize; 
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 6px;        
+}
+
+#.e-mail {
+  font-size: 18px;
+  color: #000;
+  background-color: #E9967A;
+}
+
+.img_catalog {
+    outline: 4px solid #336699;
+   
+}
+
+.img_catalog:hover {
+    outline: none;
+ }
+
+.table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 500px;
+    height: 40px;
+}
+
+.table td {
+    border: 1px solid #000;
+    padding-left: 1px;
+    vertical-align: middle;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.catalog_auto ul li a:hover {
+    color: darkgreen;
+    font-size: 25px;
+}
+
+.catalog_auto_1 > li {
+    width: 220px;
+    height: 110px;
+    #border: 1px solid #000;
+    list-style-type: none;
+}
+
+.catalog_auto_1 li {
+    display: inline-block;
+}
+
+.catalog_auto_1 a:hover {
+    color: darkgreen;
+    font-size: 25px;
+}
+
+.content p:first-letter {
+    color: #336699;
+    font-size: 30px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+    float: left;
+    text-align: center;
+    #border: 1px solid #f00;
+    background-image: url("../img/zima.jpg");
+}
+
+.header_1 {
+    background-color: #fff;
+    height: 150px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    #border: 1px solid #f00;
+    background-image: url("../img/zima.jpg");
+}
+
+
+
+.content {
+   margin-top: 10px;
+    margin-left: 40px;
+   #border: 1px solid #f00; 
+   #background-color: #0fc;    
+}
+    
+
+
+.footer {
+    flex: 0 0 auto;
+    background-color: #3CB371;
+    height: 60px;
+}
+
+.footer_pravo {
+    text-align: right;
+    margin-right: 30px;
+    padding-top: 5px;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 200px;
+    height: 170px;
+    float: left;
+    #border: 1px solid #f00;
+    
+}
+
+.menu_main {
+    margin-top: 50px;
+    margin-left: 0px;
+    width: 500px;
+    height: 170px;
+    float: right;
+    #border: 1px solid #f00;
+}
+.menu_main a:hover {
+    color: darkgreen;
+    font-size: 30px;
+}
+
+.menu_main_1 {
+    text-align: center;
+    margin-right: 0px;
+    padding-top: 70px;
+    font-size: 25px;
+}
+
+.head_text {
+    height: auto;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.div_auto_1 {
+     padding-top: 10px;
+    padding-left: 50px;
+    width: 700px;
+    height: 130px;
+    float: left;
+    #border: 1px solid #f0f;
+    text-align: center;
+}
+
+.div_auto_2 {
+    padding-top: 30px;
+    padding-left: 50px;
+    width: 200px;
+    height: 130px;
+    float: left;
+    #border: 1px solid #f00;
+}
+
+.div_auto_3 {
+    margin-top: 150px;
+    #border: 1px solid #f00;
+}
+
+.buy_button {
+   padding-top: 50px;
+    padding-left: 50px;
+     width: 200px;
+    height: 50px;
+    float: left;
+    #border: 1px solid #f00;
+}
+
+
+
+
+.buy_button input:hover {
+    width: 160px;
+    height: 40px;
+    font-size: 20px;
+    color: darkgreen;
+}
+

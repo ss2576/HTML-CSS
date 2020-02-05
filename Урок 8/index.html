@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+     <script>
+     function change_img1()
+     {document.getElementById("div1").style.background= "url('img/chair_1.jpg')";}
+      function change_img2()
+     {document.getElementById("div1").style.background= "url('img/slider-img.jpg')";}
+     function change_img3()
+     {document.getElementById("div1").style.background= "url('img/chair_2.jpg')";}
+     
+     function change_img4()
+     {document.getElementById("div2").style.background= "url('img/slider_1.jpg')";}
+     function change_img5()
+     {document.getElementById("div2").style.background= "url('img/slider.jpg')";}
+     function change_img6()
+     {document.getElementById("div2").style.background= "url('img/slider_2.jpg')";}         
+  </script>
+</head>
+<body>   
+    <div class="container">
+       <script>
+           $('#circle_right').click(function () {
+            $('slider_1').css('background', 'url(../img/chair_1.jpg)');
+            return false;
+            });
+       </script>
+        <div class="slider_1 padding-site" id="div1">
+             <div class="header clearfix">   
+                <a href="#"><img src="img/logo.svg" alt="logo"></a>
+                   <div class="div_menu">
+                     <ul class="menu clearfix">
+                        <li class="menu-list"><a class="menu-link menu-link-active">HOME</a></li>
+                        <li class="menu-list"><a class="menu-link" href="catalog/products.html">PRODUCTS</a></li>
+                       <li class="menu-list"><a class="menu-link" href="catalog/information.html">HISTORY</a></li>
+                       <li class="menu-list"><a class="menu-link" href="catalog/information.html">SHOWROOM</a></li>
+                       <li class="menu-list"><a class="menu-link" href="catalog/information.html">CONTACT</a></li>
+                         <li class="menu-list_search"><img src="img/search.svg" alt=""></li>
+                       
+                     </ul>
+                 </div>                  
+            </div>
+            <div class="slider-text">
+                <p class="slider-trending">TRENDING</p>
+                <h2 class="slider-h2">Fishnet Chair</h2>
+                <p class="slider-content">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black or highly polished chrome.</p>
+                <a href="./catalog/order.html" class="button">Order Us ></a>
+            </div>    
+            <div class="pagination">
+                <a class="circle" onclick='change_img1()'></a><a class="circle circle-active" onclick='change_img2()'></a><a class="circle" onclick='change_img3()'></a>
+            </div>
+        </div>
+        <div class="slider_2 padding-site" id="div2">
+            <div class="slider-text_2">
+                <p class="slider-trending_2">HOT DEAL</p>
+                <h2 class="slider-h2">Fishnet Chair</h2>
+                <p class="slider-content">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black or highly polished chrome.</p>
+                <a href="./catalog/order.html"  class="button">Order Us ></a>
+            </div> 
+            <div class="pagination">
+                <a class="circle" onclick='change_img4()'></a><a class="circle circle-active" onclick='change_img5()'></a><a class="circle" onclick='change_img6()'></a>
+            </div>  
+        </div>
+        <div class="slider_3 padding-site">
+            <div class="slider-text_3">
+                <p class="slider-trending_3">MOBILE APP</p>
+                <h2 class="slider-h2">Find. Follow.<br>Favorite.</h2>
+                <p class="slider-content_2">Save your favorites and share your style.</p>
+                <div class="div_button_img_1"><a href="https://www.apple.com/ios/app-store/" target="blank"><img alt="" class="button_img b1" src="img/app-store.jpg"></a></div>
+                <div class="div_button_img_1"><a href="https://play.google.com/store" target="blank"><img alt="" class="button_img b2" src="img/google-play.jpg"></a></div>
+            </div>  
+        </div>
+        <div class="footer">
+            <div class="div_footer footer1">
+                <h1 class="footer_h1">Contact Us</h1>
+                <p class="footer_p1">132A Bridge Road Richmond VIC Australia.</p>
+                <p class="footer_p1">Talk to us on 1300 132</p>
+                <p class="footer_p1">info@interior.com</p>
+            </div>
+            <div class="div_footer footer2">
+                <h1 class="footer_h1">Useful Information</h1>
+                <div class="div_footer_footer2_1">
+                    <ul class="footer_menu">
+                        <li class=""><a href="catalog/information.html">Sales terms</a></li>
+                        <li class=""><a href="catalog/information.html">Customer care</a></li>
+                        <li class=""><a href="catalog/information.html">Delivery</a></li>
+                    </ul>
+                </div>
+                <div class="div_footer_footer2_2">
+                    <ul class="footer_menu">
+                        <li class=""><a href="catalog/information.html">Architect accounts</a></li>
+                        <li class=""><a href="catalog/information.html">Careers</a></li>
+                        <li class=""><a href="catalog/information.html">Exchanges & returns</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="div_footer footer3">
+                <h1 class="footer_h1">Let’s Stay in Touch!</h1>
+                <p class="footer_p3">Suscribe to know about our latest news, products and special offers just for suscribers.</p>
+                <div class="e-mail">
+                  <input type="email" placeholder="    your email address">
+                    <div class="send"><a></a>
+                    </div>
+                </div>
+            </div>
+            <div class="div_footer_2">
+                <div class="div_footer_2_1">
+                    <p class="div_footer_2_1_1">© Copyright - Sergeev S.A. 2020. All Rights Reserved.</p>
+                </div>
+                <div class="div_footer_2_2">
+                    <ul class="footer_circle">
+                        <li class="footer_circle_1 footer_button1"><a href="https://www.facebook.com/" target="blank"><img alt="" src="img/f.jpg"></a></li>
+                        <li class="footer_circle_1 footer_button2"><a href="https://twitter.com/" target="blank"><img alt="" src="img/tvit.jpg"></a></li>
+                        <li class="footer_circle_1 footer_button3"><a href="https://plus.google.com/" target="blank"><img alt="" src="img/goog.jpg"></a></li>
+                        <li class="footer_circle_1 footer_button4"><a href="https://www.freepng.ru/" target="blank"><img alt="" src="img/p.jpg"></a></li>
+                    </ul>
+                </div>
+                <div class="div_footer_2_3">
+                    <p class="div_footer_2_1_1">Terms & Conditions  /  Privacy policy & Cookies</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
